@@ -1,25 +1,3 @@
-/*
- *   This program is free software: you can redistribute it and/or modify
- *   it under the terms of the GNU General Public License as published by
- *   the Free Software Foundation, either version 3 of the License, or
- *   (at your option) any later version.
- *
- *   This program is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *   GNU General Public License for more details.
- *
- *   You should have received a copy of the GNU General Public License
- *   along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-
-/*
- *    PMILexiconExpander.java
- *    Copyright (C) 1999-2018 University of Waikato, Hamilton, New Zealand
- *
- */
-
-
 package weka.filters.supervised.attribute;
 
 
@@ -43,36 +21,6 @@ import weka.core.Capabilities.Capability;
 import weka.core.TechnicalInformation.Type;
 import weka.filters.unsupervised.attribute.TweetToFeatureVector;
 
-
-
-
-/**
- *  <!-- globalinfo-start --> 
- *  Calculates the Pointwise Mutual Information (PMI) semantic orientation for each word in a corpus of tweets annotated by sentiment. 
- *  The score is calculated by substracting the PMI of the target word with a negative sentiment from the PMI of the target word with a positive sentiment.
- *   
- * <!-- globalinfo-end -->
- * 
- * <!-- technical-bibtex-start -->
- * 
- * BibTeX:
- * <pre>
- *  
- * &#64;inproceedings{turney2002thumbs,
- * title={Thumbs up or thumbs down? Semantic orientation applied to unsupervised classification of reviews},
- * author={Turney, Peter D},
- * booktitle={Proceedings of the 40th Annual Meeting on Association for Computational Linguistics},
- * pages={417--424},
- * year={2002},
- * organization={Association for Computational Linguistics}
- *}
- *
- * </pre>
- <!-- technical-bibtex-end -->
- * 
- * @author Felipe Bravo-Marquez (fbravoma@waikato.ac.nz)
- * @version $Revision: 1 $
- */
 public class PMILexiconExpander extends TweetToFeatureVector {
 
 
@@ -108,14 +56,6 @@ public class PMILexiconExpander extends TweetToFeatureVector {
 	private double negCount;
 
 
-
-
-	/**
-	 * @author Felipe Bravo-Marquez (fbravoma@waikato.ac.nz)
-	 *  <!-- globalinfo-start --> Internal class for calculating word counts.
-	 *   
-	 * <!-- globalinfo-end -->
-	 */
 	class WordCount{
 		String word; // the word
 		int posCount;
