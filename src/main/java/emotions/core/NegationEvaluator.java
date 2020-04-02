@@ -1,26 +1,3 @@
-/*
- *   This program is free software: you can redistribute it and/or modify
- *   it under the terms of the GNU General Public License as published by
- *   the Free Software Foundation, either version 3 of the License, or
- *   (at your option) any later version.
- *
- *   This program is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *   GNU General Public License for more details.
- *
- *   You should have received a copy of the GNU General Public License
- *   along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-
-/*
- *    NegationEvaluator.java
- *    Copyright (C) 1999-2016 University of Waikato, Hamilton, New Zealand
- *
- */
-
-
-
 package affective.core;
 
 import java.io.BufferedReader;
@@ -35,15 +12,8 @@ import java.util.Map;
 import java.util.Set;
 import java.util.zip.GZIPInputStream;
 
-/**
- *  <!-- globalinfo-start --> 
- *  This class is used for counting the number of negation words in a tweet.
- *  <!-- globalinfo-end -->
- * 
- * 
- * @author Felipe Bravo-Marquez (fjb11@students.waikato.ac.nz)
- * @version $Revision: 1 $
- */
+//This class is used for counting the number of negation words in a tweet.
+ 
 public class NegationEvaluator extends LexiconEvaluator {
 
 	/** For serialization. */
