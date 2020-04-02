@@ -1,24 +1,3 @@
-/*
- *   This program is free software: you can redistribute it and/or modify
- *   it under the terms of the GNU General Public License as published by
- *   the Free Software Foundation, either version 3 of the License, or
- *   (at your option) any later version.
- *
- *   This program is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *   GNU General Public License for more details.
- *
- *   You should have received a copy of the GNU General Public License
- *   along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-
-/*
- *    Utils.java
- *    Copyright (C) 1999-2018 University of Waikato, Hamilton, New Zealand
- *
- */
-
 package affective.core;
 
 import it.unimi.dsi.fastutil.objects.Object2IntMap;
@@ -33,20 +12,7 @@ import weka.core.stemmers.Stemmer;
 import weka.core.stopwords.StopwordsHandler;
 import weka.core.tokenizers.Tokenizer;
 
-
-/**
- * <!-- globalinfo-start --> Provides static functions for String processing.
- * <!-- globalinfo-end -->
- * 
- * 
- * @author Felipe Bravo-Marquez (fbravoma@waikato.ac.nz)
- * @version $Revision: 2 $
- */
-
 public class Utils {
-
-	
-
 	/**
 	 * Adds a negation prefix to the tokens that follow a negation word until
 	 * the next punctuation mark.
@@ -85,11 +51,6 @@ public class Utils {
 		return negTokens;
 
 	}
-
-
-
-
-
 
 
 	/**
