@@ -1,27 +1,4 @@
-/*
- *   This program is free software: you can redistribute it and/or modify
- *   it under the terms of the GNU General Public License as published by
- *   the Free Software Foundation, either version 3 of the License, or
- *   (at your option) any later version.
- *
- *   This program is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *   GNU General Public License for more details.
- *
- *   You should have received a copy of the GNU General Public License
- *   along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-
-/*
- *    LexiconDistantSupervision.java
- *    Copyright (C) 1999-2018 University of Waikato, Hamilton, New Zealand
- *
- */
-
 package weka.filters.unsupervised.attribute;
-
-
 
 import java.io.File;
 
@@ -50,20 +27,6 @@ import weka.core.tokenizers.Tokenizer;
 import weka.core.tokenizers.TweetNLPTokenizer;
 import weka.filters.SimpleBatchFilter;
 
-
-
-/**
- *  <!-- globalinfo-start --> 
- *  A lexicon-based distant supervision method for training polarity classifiers in Twitter in the absence of labeled data. 
- *  A lexicon is used for labeling tweets. The trailing word can be removed from the content. Tweets with both positive and negative words are discarded. 
- *    
- * <!-- globalinfo-end -->
- * 
- *  
- * 
- * @author Felipe Bravo-Marquez (fbravoma@waikato.ac.nz)
- * @version $Revision: 1 $
- */
 public class LexiconDistantSupervision  extends SimpleBatchFilter {
 
 
