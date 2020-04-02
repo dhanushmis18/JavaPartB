@@ -1,24 +1,3 @@
-/*
- *   This program is free software: you can redistribute it and/or modify
- *   it under the terms of the GNU General Public License as published by
- *   the Free Software Foundation, either version 3 of the License, or
- *   (at your option) any later version.
- *
- *   This program is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *   GNU General Public License for more details.
- *
- *   You should have received a copy of the GNU General Public License
- *   along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-
-/*
- *    TweetToLexiconFeatureVector.java
- *    Copyright (C) 1999-2018 University of Waikato, Hamilton, New Zealand
- *
- */
-
 package weka.filters.unsupervised.attribute;
 
 import java.io.File;
@@ -43,36 +22,6 @@ import weka.core.SparseInstance;
 import weka.core.TechnicalInformation;
 import weka.core.WekaPackageManager;
 import weka.core.TechnicalInformation.Type;
-
-/**
- *  <!-- globalinfo-start --> An attribute filter that calculates lexicon-based features 
- *  for a tweet represented as a string attribute. Different lexicons are used. 
- * <!-- globalinfo-end -->
- * 
- * <!-- technical-bibtex-start -->
- * BibTeX:
- * <pre>
- * &#64;Article{BravoMarquez2014,
- * Title                    = {Meta-level sentiment models for big social data analysis },
- * Author                   = {Felipe Bravo-Marquez and Marcelo Mendoza and Barbara Poblete},
- * Journal                  = {Knowledge-Based Systems },
- * Year                     = {2014},
- * Number                   = {0},
- * Pages                    = {86 - 99},
- * Volume                   = {69},
- * Doi                      = {http://dx.doi.org/10.1016/j.knosys.2014.05.016},
- * ISSN                     = {0950-7051},
- * Keywords                 = {Sentiment classification},
- * Url                      = {http://www.sciencedirect.com/science/article/pii/S0950705114002068}
- * }
- * </pre>
- <!-- technical-bibtex-end -->
- *  
- * 
- * @author Felipe Bravo-Marquez (fbravoma@waikato.ac.nz)
- * @version $Revision: 2 $
- */
-
 
 public class TweetToLexiconFeatureVector extends TweetToFeatureVector {
 
