@@ -1,24 +1,3 @@
-/*
- *   This program is free software: you can redistribute it and/or modify
- *   it under the terms of the GNU General Public License as published by
- *   the Free Software Foundation, either version 3 of the License, or
- *   (at your option) any later version.
- *
- *   This program is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *   GNU General Public License for more details.
- *
- *   You should have received a copy of the GNU General Public License
- *   along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-
-/*
- *    TweetToSparseFeatureVector.java
- *    Copyright (C) 1999-2018 University of Waikato, Hamilton, New Zealand
- *
- */
-
 package weka.filters.unsupervised.attribute;
 
 import it.unimi.dsi.fastutil.objects.Object2IntMap;
@@ -49,34 +28,6 @@ import weka.core.OptionMetadata;
 import weka.core.SparseInstance;
 import weka.core.TechnicalInformation;
 import weka.core.TechnicalInformation.Type;
-
-/**
- *  <!-- globalinfo-start --> An attribute filter that calculates different types of sparse features 
- *  for a tweet represented as a string attribute. The type of features include: word n-grams, character n-grams,
- *  POS tags and Brown word clusters. The size of the attribute space would depend on the training dataset.
- *   
- * <!-- globalinfo-end -->
- * 
- * <!-- technical-bibtex-start -->
- * BibTeX:
- * <pre>
- * &#64;Article{NRCJAIR14,
- * Title                    = {Sentiment analysis of short informal texts},
- * Author                   = {Kiritchenko, Svetlana and Zhu, Xiaodan and Mohammad, Saif M},
- * Journal                  = {Journal of Artificial Intelligence Research},
- * Year                     = {2014},
- * Pages                    = {723--762},
- * Volume                   = {50}
- *}
- * </pre>
- <!-- technical-bibtex-end -->
- * 
- * 
- * 
- * @author Felipe Bravo-Marquez (fbravoma@waikato.ac.nz)
- * @version $Revision: 2 $
- */
-
 
 public class TweetToSparseFeatureVector extends TweetToFeatureVector {
 
