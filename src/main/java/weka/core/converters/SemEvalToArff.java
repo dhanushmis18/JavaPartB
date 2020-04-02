@@ -1,26 +1,3 @@
-/*
- *   This program is free software: you can redistribute it and/or modify
- *   it under the terms of the GNU General Public License as published by
- *   the Free Software Foundation, either version 3 of the License, or
- *   (at your option) any later version.
- *
- *   This program is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *   GNU General Public License for more details.
- *
- *   You should have received a copy of the GNU General Public License
- *   along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-
-/*
- *    SemEvalToArff.java
- *    Copyright (C) 1999-2018 University of Waikato, Hamilton, New Zealand
- *
- */
-
-
-
 package weka.core.converters;
 
 import java.io.BufferedReader;
@@ -34,14 +11,7 @@ import weka.core.Instance;
 import weka.core.Instances;
 import weka.core.converters.ArffSaver;
 
-/**
- * Builds an arff dataset from the SemEval collection of tweets for sentiment
- * analysis. More info about the task:
- * https://www.cs.york.ac.uk/semeval-2013/task2/
- * 
- * @author Felipe Bravo-Marquez (fjb11 at students.waikato.ac.nz)
- * @version 1.0
- */
+//Builds an arff dataset from the SemEval collection of tweets for sentiment analysis
 
 public class SemEvalToArff extends TweetCollectionToArff {
 
