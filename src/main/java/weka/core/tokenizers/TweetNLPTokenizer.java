@@ -1,24 +1,3 @@
-/*
- *   This program is free software: you can redistribute it and/or modify
- *   it under the terms of the GNU General Public License as published by
- *   the Free Software Foundation, either version 3 of the License, or
- *   (at your option) any later version.
- *
- *   This program is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *   GNU General Public License for more details.
- *
- *   You should have received a copy of the GNU General Public License
- *   along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-
-/*
- *    TwitterNLPTokenizer.java
- *    Copyright (C) 1999-2018 University of Waikato, Hamilton, New Zealand
- *
- */
-
 package weka.core.tokenizers;
 
 
@@ -31,31 +10,6 @@ import weka.core.RevisionUtils;
 import weka.core.TechnicalInformation;
 import weka.core.TechnicalInformation.Type;
 
-
-
-
-/**
- *  <!-- globalinfo-start --> A Twitter-specific tokenizer based on the CMU TwitterNLP library: http://www.cs.cmu.edu/~ark/TweetNLP/
- * <!-- globalinfo-end -->
- * 
- * <!-- technical-bibtex-start -->
- * BibTeX:
- * <pre>
- * &#64;InProceedings{twitterNLP,
- * 	Title                    = {Part-of-speech tagging for twitter: Annotation, features, and experiments},
- * 	Author                   = {Gimpel, Kevin and Schneider, Nathan and O'Connor, Brendan and Das, Dipanjan and Mills, Daniel and Eisenstein, Jacob and Heilman, Michael and Yogatama, Dani and Flanigan, Jeffrey and Smith, Noah A},
- * 	Booktitle                = {Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies: short papers-Volume 2},
- * 	Year                     = {2011},
- * 	Organization             = {Association for Computational Linguistics},
- * 	Pages                    = {42--47}
- *	}
- * </pre>
- <!-- technical-bibtex-end -->
- * 
- * 
- * @author Felipe Bravo-Marquez (fbravoma@waikato.ac.nz)
- * @version $Revision: 1 $
- */
 public class TweetNLPTokenizer extends Tokenizer {
 
 	/** For serialization.    **/
