@@ -1,26 +1,3 @@
-/*
- *   This program is free software: you can redistribute it and/or modify
- *   it under the terms of the GNU General Public License as published by
- *   the Free Software Foundation, either version 3 of the License, or
- *   (at your option) any later version.
- *
- *   This program is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *   GNU General Public License for more details.
- *
- *   You should have received a copy of the GNU General Public License
- *   along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-
-/*
- *    PTCM.java
- *    Copyright (C) 1999-2018 University of Waikato, Hamilton, New Zealand
- *
- */
-
-
-
 package weka.filters.unsupervised.attribute;
 
 
@@ -51,18 +28,6 @@ import weka.core.TechnicalInformation;
 import weka.core.Utils;
 import weka.core.TechnicalInformation.Type;
 
-
-/**
- *  <!-- globalinfo-start --> 
- *	Partitioned Tweet Centroid Model (PTCM) is a lexicon-based distant supervision method for training polarity classifiers in Twitter in the absence of labeled data. 
- *  Word vectors are calculated using the Tweet Centroid Model and labeled using the lexicon.  The tweets from the second batch are represented with compatible features.
- * <!-- globalinfo-end -->
- * 
- *  
- * 
- * @author Felipe Bravo-Marquez (fbravoma@waikato.ac.nz)
- * @version $Revision: 1 $
- */
 public class PTCM extends DistantSupervisionSyntheticFilter{
 
 
