@@ -1,24 +1,3 @@
-/*
- *   This program is free software: you can redistribute it and/or modify
- *   it under the terms of the GNU General Public License as published by
- *   the Free Software Foundation, either version 3 of the License, or
- *   (at your option) any later version.
- *
- *   This program is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *   GNU General Public License for more details.
- *
- *   You should have received a copy of the GNU General Public License
- *   along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-
-/*
- *    TweetToSentiStrengthFeatureVector.java
- *    Copyright (C) 1999-2018 University of Waikato, Hamilton, New Zealand
- *
- */
-
 package weka.filters.unsupervised.attribute;
 
 import java.io.File;
@@ -35,33 +14,6 @@ import weka.core.SparseInstance;
 import weka.core.TechnicalInformation;
 import weka.core.WekaPackageManager;
 import weka.core.TechnicalInformation.Type;
-
-
-/**
- *  <!-- globalinfo-start --> An attribute filter that calculates positive and negative scores using 
- *  SentiStrength for a tweet represented as a string attribute. 
- * <!-- globalinfo-end -->
- * 
- * <!-- technical-bibtex-start -->
- * BibTeX:
- * <pre>
- * &#64;@Article{ThelwallBP12,
- *  Title                    = {Sentiment strength detection for the social web.},
- *  Author                   = {Thelwall, Mike and Buckley, Kevan and Paltoglou, Georgios},
- *  Journal                  = {Journal of the American Society for Information Science and Technology},
- *  Year                     = {2012},
- *  Number                   = {1},
- *  Pages                    = {163-173},
- *  Volume                   = {63}
- * }
- * </pre>
- <!-- technical-bibtex-end -->
- *  
- * 
- * @author Felipe Bravo-Marquez (fbravoma@waikato.ac.nz)
- * @version $Revision: 2 $
- */
-
 
 public class TweetToSentiStrengthFeatureVector extends TweetToFeatureVector {
 
